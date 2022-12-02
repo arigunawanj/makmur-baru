@@ -25,4 +25,10 @@
         </div>
     </div>
     </div>
+
+    <footer>
+        <div class="container">
+            <p class="text-center">Wes Makmur &copy; 2022</p>
+        </div>
+    </footer>
 @endsection

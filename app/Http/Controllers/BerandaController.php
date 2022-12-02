@@ -16,7 +16,7 @@ class BerandaController extends Controller
 
     public function detail(Post $post)
     {
-        $product = Product::where('category_id', $post->category_id)->get();
+        $product = Product::where('category_id', $post->category_id)->where('tampilProduk', 1)->get();
 
         return view('detailberanda', compact('post','product'));
     }
